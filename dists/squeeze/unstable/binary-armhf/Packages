@@ -1,0 +1,29 @@
+Package: emoncms
+Version: 7.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 3028
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms/emoncms_7.0_armhf.deb
+Size: 707674
+SHA256: 457e1856a5cc7c520ac3eed613d1038bf2b1d2afe195ed2660c10943706a793f
+SHA1: 6475d784eae0debb125001abc3fb6c168d80a090
+MD5sum: 32a641fcde4f49eed711caf0d2eab739
+Description: The core emoncms webapp.
+
+Package: emoncms-raspberrypi
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 98
+Depends: emoncms
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-raspberrypi/emoncms-raspberrypi_1.0_armhf.deb
+Size: 17624
+SHA256: 0c6273386594bfc0890a783f6d487131682bf76a0d2fbc20b448cc20326cb6d4
+SHA1: ec139ef44b37edf0fb305d4c3dc417b676e68eea
+MD5sum: 1021b9233801c7e930b3e01c58d1fe3c
+Description: The emoncms raspberry pi module.
+

@@ -1,0 +1,133 @@
+Package: emoncms
+Version: 8.0.3-3
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 3337
+Depends: debconf (>= 0.5) | debconf-2.0, apache2, libapache2-mod-php5, php5, php5-mysql, php5-curl, php-pear, php5-dev, php5-mcrypt, mysql-server, mysql-client, ufw, ntp
+Suggests: redis-server
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms/emoncms_8.0.3-3_armhf.deb
+Size: 763054
+SHA256: a5829d89e88da56dc1019da6d62da3bfe2c7d8b4417b12eb4814b5e0ca7be5f1
+SHA1: 43270cb8d3a13884b453c3f2ae260c369b2d9244
+MD5sum: 59aa0cfaac5e90200475090c63dcdbf2
+Description: The core emoncms webapp.
+
+Package: emoncms-module-event
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 2365
+Depends: emoncms, php5-mcrypt, php5-curl
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-module-event/emoncms-module-event_1.0_armhf.deb
+Size: 636456
+SHA256: c98d85cb37d2f6755867470f062b494fe8944071620d0b39817aca5f23c71764
+SHA1: 8122f75a8668c0396163b7b896a4c1c656b10d37
+MD5sum: 813d4635994f8799b6081fece499f06a
+Description: The emoncms 'event' module. See https://github.com/emoncms/event
+
+Package: emoncms-module-myelectric
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 71
+Depends: emoncms
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-module-myelectric/emoncms-module-myelectric_1.0_armhf.deb
+Size: 5304
+SHA256: 3675ebb4013777313a186bc5be1d300da36e19729269ccc3317bce327d87ead3
+SHA1: dfe80c33d94f7447ca67bff67b0db27bab08b080
+MD5sum: c056645b43db0ae4a78d71d055b187c0
+Description: The emoncms 'myelectric' module.
+
+Package: emoncms-module-openbem
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 1007
+Depends: emoncms
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-module-openbem/emoncms-module-openbem_1.0_armhf.deb
+Size: 677654
+SHA256: f52143646037172b5a38b1c4d36ce6db00359912d8e34db8e46dcab9707051a6
+SHA1: 97a3aa0f0b42312ffcf1855ea9709cfbb3d83719
+MD5sum: 19e04ea849b6a360d4b1689af1ed1a5f
+Description: The emoncms 'openbem' module.
+
+Package: emoncms-module-rfm12pi
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 81
+Depends: emoncms, php5-dio
+Breaks: emoncms-raspberrypi
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-module-rfm12pi/emoncms-module-rfm12pi_1.0_armhf.deb
+Size: 12562
+SHA256: ab64af2451d2b875486845a2181f9c2d9c908d77e41edef2f5dcc46a86b8edae
+SHA1: 68bb8b6632e323a1008d0bd99389df3e4d260a36
+MD5sum: 704f15bfb68a2071131577b5b3d9b553
+Description: The emoncms 'raspberrypi' module. See https://github.com/emoncms/raspberrypi
+
+Package: emoncms-module-sync
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 78
+Depends: emoncms
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-module-sync/emoncms-module-sync_1.0_armhf.deb
+Size: 7362
+SHA256: 2d7e646dc5751fd6a2745f9f671da3313808718520da486a8f87c691a22d02fd
+SHA1: cf29468bcb824a8e33fb87669812d91c2ec2c39f
+MD5sum: 4ff868574941b07a5ff4074d03b6f8fd
+Description: The emoncms 'sync' module.
+
+Package: emoncms-raspberrypi
+Version: 1.0
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 123
+Depends: emoncms
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-raspberrypi/emoncms-raspberrypi_1.0_armhf.deb
+Size: 17978
+SHA256: bd0efdc1caeedd257fd440b89cdff2284966e829361822d34e8095a7eeae95de
+SHA1: 20ce4e23f3a795b4f41e90b9f261429c0c938505
+MD5sum: b1284a886d49a946d75ba2a7149c2104
+Description: The emoncms raspberry pi module.
+
+Package: php5-dio
+Version: 0.0.7-1
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 73
+Depends: libc6 (>= 2.13-28), phpapi-20100525+lfs
+Priority: optional
+Section: web
+Filename: pool/unstable/p/php5-dio/php5-dio_0.0.7-1_armhf.deb
+Size: 12728
+SHA256: cc2cb229dbfb716215d08d00e2c06877ba244d1cf03d840c167115e670ef83ea
+SHA1: 591ac78f25c1e9cfa820650619c76c0edd7ba5ec
+MD5sum: 456c2c64b34848749743a4af7d1a2ce5
+Description: dio module for PHP 5
+ Direct I/O functions
+ .
+ PHP supports the direct io functions as described in the Posix
+ Standard (Section 6) for performing I/O functions at a lower level
+ than the C-Language stream I/O functions (fopen(), fread(),..).
+ .
+ DIO provides functions and stream wrappers which provide raw and
+ serial low level IO support.  The use of the DIO functions should
+ be considered only when direct control of a device is needed.
+ In all other cases, the standard filesystem functions are more
+ than adequate.
+

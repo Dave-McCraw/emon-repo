@@ -1,0 +1,16 @@
+Codename: squeeze
+Date: Thu, 06 Mar 2014 23:20:53 UTC
+Architectures: armhf
+Components: unstable
+MD5Sum:
+ 745712252147750f0b441c9cafd1df0c 908 unstable/binary-armhf/Packages
+ c2b883d571ac744f3b1d08b7b1af32ac 481 unstable/binary-armhf/Packages.gz
+ 1c9525afc6d7e238fd6bb41fb027e5cd 40 unstable/binary-armhf/Release
+SHA1:
+ 84bd095146f003fdfaf82d54ba247bee3c833030 908 unstable/binary-armhf/Packages
+ d285ab55c6884ddfe9bade9df3975bc4d6ce61e0 481 unstable/binary-armhf/Packages.gz
+ 5195b6bb829ff7551e11f66213168f305e904cfe 40 unstable/binary-armhf/Release
+SHA256:
+ 548bd2c8fed9368745f976007bf399e9eef9fdc28068012e60512d3f9cc52199 908 unstable/binary-armhf/Packages
+ 00dae52587c0bcec2f3ca88167151dcd308db30119828b7bb348ba7d45475e7a 481 unstable/binary-armhf/Packages.gz
+ 97013cda54055d02789239c74d7ab2bb63e0d018ed91614cc8c7c1657b32f292 40 unstable/binary-armhf/Release
