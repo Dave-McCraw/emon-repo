@@ -105,6 +105,23 @@ SHA1: 20ce4e23f3a795b4f41e90b9f261429c0c938505
 MD5sum: b1284a886d49a946d75ba2a7149c2104
 Description: The emoncms raspberry pi module.
 
+Package: php5-apache-log4php
+Version: 2.3.0-1
+Architecture: all
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 669
+Depends: php-pear
+Priority: optional
+Section: web
+Filename: pool/unstable/p/php5-apache-log4php/php5-apache-log4php_2.3.0-1_all.deb
+Size: 100624
+SHA256: 8aab9925fadc76265b86ef7533bc5c5f8baf6d465e078f1761f74f96b6bde5f8
+SHA1: f47abda0727976cb85021cffc1e4a3169dd99405
+MD5sum: c1cfcf03780cb580fa0b1e791b1e98c2
+Description: A versatile logging framework for PHP
+ Apache log4php is a versatile logging framework for PHP at the
+ Apache Software Foundation (ASF).
+
 Package: php5-dio
 Version: 0.0.7-1
 Architecture: armhf
