@@ -1,17 +1,17 @@
 Package: emoncms
-Version: 8.0.8
+Version: 8.0.9
 Architecture: armhf
 Maintainer: Dave McCraw <dave@mccraw.co.uk>
-Installed-Size: 3337
+Installed-Size: 2812
 Depends: debconf (>= 0.5) | debconf-2.0, apache2, libapache2-mod-php5, php5, php5-mysql, php5-curl, php5-dev, php5-mcrypt, libphp-swiftmailer, mysql-server, mysql-client, ufw, ntp
 Suggests: redis-server
 Priority: optional
 Section: non-free/web
-Filename: pool/unstable/e/emoncms/emoncms_8.0.8_armhf.deb
-Size: 779100
-SHA256: 3b56efe52785c8294d2dd6ccd9412fe8502fbd6ea54c8f099911796e0cf50d43
-SHA1: 1099ecd6a7e58267b8f98a771770a1d610f1ebf0
-MD5sum: e66c8e6b2ff26a4bfd6c34e5d7993da8
+Filename: pool/unstable/e/emoncms/emoncms_8.0.9_armhf.deb
+Size: 746414
+SHA256: 45c3ef55dddbaaacf6e4efd5dc7528c509e6629f2a96adf92348ae6685ba13ce
+SHA1: aeb83d1a938149d0a8ba0ad4b4a47d61be0f67dc
+MD5sum: 5e7f3ce7f96a158e89e3fa10a85f14ec
 Description: The core emoncms webapp.
 
 Package: emoncms-module-event
@@ -60,19 +60,19 @@ MD5sum: 19e04ea849b6a360d4b1689af1ed1a5f
 Description: The emoncms 'openbem' module.
 
 Package: emoncms-module-rfm12pi
-Version: 1.0
+Version: 1.0.1
 Architecture: armhf
 Maintainer: Dave McCraw <dave@mccraw.co.uk>
-Installed-Size: 81
+Installed-Size: 32
 Depends: emoncms, php5-dio
 Breaks: emoncms-raspberrypi
 Priority: optional
 Section: non-free/web
-Filename: pool/unstable/e/emoncms-module-rfm12pi/emoncms-module-rfm12pi_1.0_armhf.deb
-Size: 12562
-SHA256: ab64af2451d2b875486845a2181f9c2d9c908d77e41edef2f5dcc46a86b8edae
-SHA1: 68bb8b6632e323a1008d0bd99389df3e4d260a36
-MD5sum: 704f15bfb68a2071131577b5b3d9b553
+Filename: pool/unstable/e/emoncms-module-rfm12pi/emoncms-module-rfm12pi_1.0.1_armhf.deb
+Size: 11482
+SHA256: a2f195ebf4f82684fb3fb6a1b3767210be0268dd1d6ae18b121e7a553e795f57
+SHA1: dc41396b2eb7e81a41cf7917893a87ba8bc6069f
+MD5sum: 44bb32a55057f5dd28ee181651dda797
 Description: The emoncms 'raspberrypi' module. See https://github.com/emoncms/raspberrypi
 
 Package: emoncms-module-sync
