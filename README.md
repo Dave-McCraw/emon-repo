@@ -5,6 +5,8 @@ APT repository for OpenEnergyMonitor.org
 
 ### Update instructions
 
+*(need a section on prereqs for the Pi environment itself, i.e. quilt, reprepro, s3cmd, and so on!)*
+
 First you need to check out the upstream package repository (i.e. `emoncms/emoncms`) and export the source, using the tag associated with the new version (in this example, that tag is `8.0.9`):
 
     git archive 8.0.9 | gzip > ../emoncms-orig.tar.gz
@@ -50,6 +52,10 @@ All being well, you can now commit your changes to the repo itself and get that 
     git commit -a -m "Add emoncms 8.0.9"
     git push origin master
     
-Finally, submit pull requests on the `Dave-McCraw/emon-repo` and `Dave-McCraw/pkg-emoncms` repositories so I can get your changes and update the actual repo on Amazon S3...
+Finally, submit pull requests on the `Dave-McCraw/emon-repo` and `Dave-McCraw/pkg-emoncms` repositories so I can get your changes and update the actual repo on Amazon S3:
+
+    s3cmd --verbose --acl-public --exclude '.git/*' --delete-removed  sync emon-repo/ s3://emon-repo
+
+... but in order for you to do that, you'd need my s3cmd configuration and keys... I'll take it from the pull request and upload on your behalf :)
 
 Phew! :rocket:
