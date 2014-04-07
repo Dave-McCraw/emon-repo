@@ -14,6 +14,21 @@ SHA1: aeb83d1a938149d0a8ba0ad4b4a47d61be0f67dc
 MD5sum: 5e7f3ce7f96a158e89e3fa10a85f14ec
 Description: The core emoncms webapp.
 
+Package: emoncms-hub
+Version: 0.1
+Architecture: armhf
+Maintainer: Dave McCraw <dave@mccraw.co.uk>
+Installed-Size: 61
+Depends: debconf (>= 0.5) | debconf-2.0, python, python-serial, python-configobj, python-mysqldb
+Priority: optional
+Section: non-free/web
+Filename: pool/unstable/e/emoncms-hub/emoncms-hub_0.1_armhf.deb
+Size: 16904
+SHA256: 0deb4047d12385d3cc19f3300cb106c46366ae445a5920fae3c352e6bdfdd323
+SHA1: 9e731f955d538a9eb892844298531fb13b58266d
+MD5sum: b6393d3665cae9c3cf2d84d39c0c480e
+Description: Software to run on the emonBase (Pi) to marshal and buffer inputs.
+
 Package: emoncms-module-event
 Version: 1.0
 Architecture: armhf
