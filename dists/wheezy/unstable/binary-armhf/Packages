@@ -1,17 +1,17 @@
 Package: emoncms
-Version: 8.0.9
+Version: 8.1.1
 Architecture: armhf
 Maintainer: Dave McCraw <dave@mccraw.co.uk>
-Installed-Size: 2812
+Installed-Size: 3351
 Depends: debconf (>= 0.5) | debconf-2.0, apache2, libapache2-mod-php5, php5, php5-mysql, php5-curl, php5-dev, php5-mcrypt, libphp-swiftmailer, mysql-server, mysql-client, ufw, ntp
 Suggests: redis-server
 Priority: optional
 Section: non-free/web
-Filename: pool/unstable/e/emoncms/emoncms_8.0.9_armhf.deb
-Size: 746414
-SHA256: 45c3ef55dddbaaacf6e4efd5dc7528c509e6629f2a96adf92348ae6685ba13ce
-SHA1: aeb83d1a938149d0a8ba0ad4b4a47d61be0f67dc
-MD5sum: 5e7f3ce7f96a158e89e3fa10a85f14ec
+Filename: pool/unstable/e/emoncms/emoncms_8.1.1_armhf.deb
+Size: 763070
+SHA256: 065a61b0439b2cd8748f261110652853d393db89dd35ac2a9394d37cc63166c4
+SHA1: d414cbc6cef9e0ca400e0bfe695b83ce029b3c2f
+MD5sum: 991f438741136c54c0b60bb1df86c42d
 Description: The core emoncms webapp.
 
 Package: emoncms-hub
